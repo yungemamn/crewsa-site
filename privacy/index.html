@@ -1,35 +1,77 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="../_style.css"><title>Crewsa — Privacy Policy</title></head>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Crewsa — Privacy Policy</title>
+<meta name="description" content="What the Crewsa app collects, who processes it (Supabase, Twilio, Stripe, Expo), what other users see, and how to delete your account.">
+<meta name="theme-color" content="#0a0a0a">
+<link rel="canonical" href="https://crewsa.app/privacy/">
+<link rel="icon" type="image/png" href="../favicon.png">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Crewsa">
+<meta property="og:url" content="https://crewsa.app/privacy/">
+<meta property="og:title" content="Crewsa Privacy Policy">
+<meta property="og:description" content="What the Crewsa app collects, who processes it, what other users see, and how to delete your account.">
+<meta property="og:image" content="https://crewsa.app/og.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Crewsa: book a cameraman by the hour">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Crewsa Privacy Policy">
+<meta name="twitter:description" content="What the Crewsa app collects, who processes it, what other users see, and how to delete your account.">
+<meta name="twitter:image" content="https://crewsa.app/og.jpg">
+<meta name="twitter:image:alt" content="Crewsa: book a cameraman by the hour">
+<link rel="stylesheet" href="../_style.css"></head>
 <body><div class="wrap"><header><div class="mark">&#127909;</div><div class="brand">Crewsa</div></header>
 <h1>Privacy Policy</h1>
-<p class="eff">Effective 8 September 2026</p>
-<p>Crewsa is operated by an independent sole developer based in Atlanta, Georgia, United States. This policy explains what the Crewsa iOS app collects, why, and what control you have. Questions: <a href="mailto:officialcrewsa@gmail.com">officialcrewsa@gmail.com</a>.</p>
+<p class="eff">Last updated 6 October 2026</p>
+<p>Crewsa is run by an independent sole developer based in Atlanta, Georgia, United States. This policy explains what the Crewsa iPhone app and this website collect, why, who else handles it, and what control you have. Questions: <a href="mailto:officialcrewsa@gmail.com">officialcrewsa@gmail.com</a>.</p>
 
 <h2>What we collect</h2>
 <ul>
-<li><strong>Your mobile number.</strong> Required. It is how you sign in and how we keep one person to one account.</li>
+<li><strong>Your mobile number.</strong> Required. It is how you sign in (we text you a six-digit code) and how we keep one person to one account.</li>
 <li><strong>Your name</strong>, and optionally a profile photo and your city.</li>
-<li><strong>If you are a camera operator:</strong> your hourly rate, biography, equipment list, and the photos and videos you upload as work samples. This information is public inside the app.</li>
-<li><strong>Booking details</strong> you enter: date, start time, length, the address of the shoot, what is being filmed and whose equipment is used.</li>
-<li><strong>Messages and reviews</strong> you write in the app.</li>
+<li><strong>If you are a cameraman:</strong> your hourly rate, biography, equipment list, days off, and the photos and videos you upload as work samples. Your listing is public: anyone using the app can see it, and the photo and video files are stored at public web addresses.</li>
+<li><strong>Bookings and purchase history.</strong> For every booking: the date, start time and length, the address of the shoot, what is being filmed, whose equipment is used, any notes, the price, and its status (waiting for payment, confirmed, completed or cancelled). We also keep the Stripe payment reference for each booking, and a record of any refund or card dispute connected to it.</li>
+<li><strong>In-app messages.</strong> The text of messages you send and receive, who sent them, who received them and when. Messages are stored on our servers so both people can see the conversation; they are not end-to-end encrypted. We read messages only when one is reported to us, when we need to investigate safety, fraud or a payment dispute, or when the law requires it. Names, messages and other text you enter are checked automatically against a short list of banned words and phrases (slurs and sexual solicitation), and text that matches is refused.</li>
+<li><strong>Reviews</strong> you write, which are shown in the app with your name.</li>
 <li><strong>Reports and blocks</strong> you submit, including the reason you choose and any note you add.</li>
-<li><strong>A push notification token</strong>, only if you allow notifications.</li>
+<li><strong>A push notification token</strong>, only if you allow notifications. This is an identifier from Apple and Expo that lets us send notifications to your phone. It is stored with your profile and used only to tell you about bookings and messages. A new-message notification shows the sender&rsquo;s name and the start of the message, so it can appear on your lock screen depending on your iOS settings.</li>
+<li><strong>Payment and payout information,</strong> which is handled by Stripe (see below). We receive the result of each payment and refund, never your card number. For cameramen we store your Stripe account ID and whether Stripe has enabled payouts for you; we never see your bank details, Social Security number or ID documents.</li>
+<li><strong>Emails you send us</strong> at our support address.</li>
+</ul>
+
+<h2>What other users see</h2>
+<ul>
+<li>A cameraman&rsquo;s listing, work samples and reviews are visible to everyone who uses the app.</li>
+<li>When a creator&rsquo;s payment goes through, the cameraman on that booking sees the creator&rsquo;s name and the booking details, including the shoot address and notes. A cameraman does not see a booking before it is paid.</li>
+<li>The person you message sees your messages and your name, and your profile photo if you have one.</li>
 </ul>
 
 <h2>What we do not do</h2>
 <div class="card"><p style="margin:0">Crewsa contains no advertising, no analytics or attribution software, and no crash-reporting software. We do not collect an advertising identifier, we do not track you across other apps or websites, and we do not sell or rent your personal information to anyone. Crewsa uses no artificial-intelligence or machine-learning service of any kind.</p></div>
+<p><strong>This website</strong> sets no cookies and runs no analytics. It is hosted on GitHub Pages, which logs visitors&rsquo; IP addresses for security. If you download Crewsa using a link on this site, Apple may show us how many downloads came from that link, as a total count that does not identify you.</p>
 
 <h2>Who processes your data</h2>
 <ul>
-<li><strong>Supabase</strong> — hosts the database, the login system, uploaded files and the app&rsquo;s server functions.</li>
-<li><strong>Twilio</strong> — delivers your six-digit login code by SMS.</li>
-<li><strong>Stripe</strong> — processes card payments and pays operators out. Card numbers are entered into Stripe&rsquo;s own payment sheet and never reach Crewsa&rsquo;s servers. Operators complete identity and bank verification directly with Stripe.</li>
-<li><strong>Expo</strong> — builds the app and relays push notifications to Apple&rsquo;s notification service.</li>
-<li><strong>OpenStreetMap Nominatim</strong> — suggests addresses as you type one on the booking screen.</li>
+<li><strong>Supabase</strong> hosts the database, the login system, uploaded files and the app&rsquo;s server functions.</li>
+<li><strong>Twilio</strong> sends your six-digit sign-in code by SMS. Twilio receives your phone number and the code, and may use them to detect fraud. Your carrier&rsquo;s message and data rates may apply.</li>
+<li><strong>Stripe</strong> processes payments and pays cameramen. Card and Apple Pay details are entered into Stripe&rsquo;s own payment sheet and never reach Crewsa&rsquo;s servers. Cameramen set up payouts with Stripe directly: Stripe collects and verifies their identity, tax and bank details, holds their earnings and pays them out. Stripe also uses payment data to prevent fraud and meet its legal obligations, under its own <a href="https://stripe.com/privacy">privacy policy</a>.</li>
+<li><strong>Expo</strong> builds the app and relays push notifications to Apple.</li>
+<li><strong>Apple</strong> delivers push notifications to your phone, and handles Apple Pay if you use it.</li>
+<li><strong>OpenStreetMap Nominatim</strong> suggests addresses as you type one on the booking screen, so it receives what you type there.</li>
+<li><strong>Google (Gmail)</strong> hosts our support mailbox, so it holds any email you send us.</li>
+<li><strong>GitHub</strong> hosts this website.</li>
 </ul>
-<p>These companies act as our service providers and may only use the data to provide their service to us.</p>
+<p>These companies act as our service providers and may only use the data to provide their service to us, except where this policy says a company also uses data under its own policy (Stripe).</p>
 
-<h2>How long we keep it</h2>
-<p>We keep your information for as long as your account exists. When you delete your account we delete your login, profile, profile photo and messages, and the photo and work samples on your listing; a camera operator&rsquo;s listing is hidden and emptied down to the display name. Reviews you wrote keep their stars and words but are re-signed &ldquo;Former user&rdquo;. We keep records of completed, paid bookings in anonymised form, with your personal details stripped out, because payment and tax law requires us to retain transaction records.</p>
+<h2>How long we keep it, and deleting your account</h2>
+<p>We keep your information for as long as your account exists. You can delete your account at any time from <strong>Me &gt; Delete account</strong>. When you do:</p>
+<ul>
+<li><strong>Deleted:</strong> your login and phone number, your profile (name, city, photo and push notification token), every message you sent or received (the other person&rsquo;s copy of the conversation is deleted too), your blocks, the reports you filed, and the photo and work samples on your listing.</li>
+<li><strong>Anonymised:</strong> a cameraman&rsquo;s listing is hidden and emptied down to the display name. Reviews you wrote keep their stars and words but are re-signed &ldquo;Former user&rdquo;. Bookings you made as a creator lose your name, the shoot address and the notes.</li>
+<li><strong>Kept:</strong> each past booking&rsquo;s date, length, price and Stripe payment reference, and any refund or dispute record, because payment and tax law requires us to keep transaction records and card disputes can be raised for months. Reports other people made about you are kept as safety records, without your account attached.</li>
+</ul>
+<p>Before anything is deleted, your open bookings are cancelled under the cancellation rules in our <a href="../terms/">terms</a> (section 13 says what happens to each kind of booking): a payment still in progress is stopped, refunds go back to the card that paid, and a booking that has already started stays booked. Deleting your account does not close a cameraman&rsquo;s Stripe account: Stripe keeps its own records as the law requires, and you can close your Stripe account with Stripe. Emails you sent us stay in our mailbox until you ask us to delete them. Our hosting providers keep short-lived server logs (such as IP address and time of a request) for security and troubleshooting.</p>
 
 <h2>Your choices and rights</h2>
 <ul>
@@ -44,7 +86,7 @@
 <p>Crewsa is for adults. It is not directed at children, and you must be 18 or older to create an account. If we learn that we hold information from someone under 18, we delete it.</p>
 
 <h2>Security</h2>
-<p>Data is encrypted in transit. Access to the database is restricted by row-level security rules so that people can only read and write their own records. No system is perfectly secure, and we cannot guarantee absolute security.</p>
+<p>Data is encrypted in transit. Access to the database is restricted by row-level security rules so that people can only read and write the records they are allowed to. Messages are not end-to-end encrypted. No system is perfectly secure, and we cannot guarantee absolute security.</p>
 
 <h2>Changes</h2>
 <p>If we change this policy we will update the date at the top of this page and, for significant changes, tell you in the app.</p>
